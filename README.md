@@ -54,3 +54,5 @@ Sports motion analysis
 Human–computer interaction
 
 🤖
+
+Resume bullets are available in `resume_bullets.md` — use them for your CV or LinkedIn.
