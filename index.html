@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PoseNet Working Demo</title>
+
+    <!-- p5.js -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+
+    <!-- ml5.js (PoseNet supported version) -->
+    <script src="https://unpkg.com/ml5@0.12.2/dist/ml5.min.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            background: #111;
+            color: white;
+            font-family: Arial;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #canvas-container {
+            border-radius: 12px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Real-Time Pose Detection</h2>
+        <div id="canvas-container"></div>
+    </div>
+
+    <script src="sketch.js"></script>
+</body>
+</html>
